@@ -1,32 +1,93 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>聯絡我們</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>聯絡我們</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<style>
+body {
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #008000; /* 深綠色 */
+}
+h3 {
+    font-weight: bold;
+}
+#main_img {
+    width: 780px;
+    height: 120px;
+}
+#email, #message {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+</style>
 </head>
 <body>
-	
-	<main>
-		<h1>聯絡我們</h1>
-		
-		<section id="contact-form">
+<div id="wrapper">
+  <div id="content">
+    <div id="header">
+      <div id="logo">
+        <img id="main_img" src="images/main_img.jpg" alt="Main Image">
+      </div>
+     <h1>聯絡我們</h1>
+    </div>
+    <header></header>
+    <main>
+      <section id="list"></section>
+      <section id="detail">
+        <article id="event1">
+
+<br />
+<br />
+ <section id="contact-form">
 			<h2>聯絡表格</h2>
 			<form>
 				<label for="name">姓名：</label>
 				<input type="text" id="name" name="name" required><br><br>
-				<label for="email">電子郵件：</label>
-				<input type="email" id="email" name="email" required><br><br>
-				<label for="message">訊息：</label><br>
-				<textarea id="message" name="message" rows="5" required></textarea><br><br>
+				
+
+<label for="email">電子郵件：</label><br>
+				<input type="text" id="email" name="email" required><br><br>
+				
+<br />
+
+<label for="message">訊息：</label><br>
+				<textarea id="message" name="message" rows="1" required></textarea><br><br>
 				<input type="submit" value="送出">
+<br />
 			</form>
 		</section>
 		<section id="contact-info">
-			<h2>聯絡資訊</h2>
+	<br />		
+<br />
+
+
+<h2>聯絡資訊</h2>
 			<p>以下是我們的聯絡資訊：</p>
 			<ul>
 				<li>電話：0800-000-666</li>
 				<li>地址：苗栗縣苗栗市南勢里聯大路888888號</li>
-				<li>電子郵件：loveearth@gmail.com</li>
+				<li>電子郵件：we.are.llyz@gmail.com</li>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 			</ul>
 		</section>
 	</main>
