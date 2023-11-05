@@ -4,7 +4,46 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title></title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+
 </head>
+<style type="text/css">
+/* CSS for Image Marquee Effect */
+#imageMarquee {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 530px; /* 设置容器宽度 */
+  height: 300px; /* 设置容器高度 */
+}
+
+#imageMarquee img {
+  width: 200px; /* 设置图片宽度 */
+  height: 300px; /* 设置图片高度 */
+  display: inline-block;
+  margin-right: 0px; /* 设置图片之间的间距 */
+  animation: marquee 20s linear infinite; 
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%); /* 图片初始位置在容器左侧内部 */
+  }
+  to {
+    transform: translateX(-100%); /* 图片滚动至容器左侧外部 */
+  }
+}
+</style>
+
+</html>
+
+
+
+
+
+
+
+
 <body>
 <div id="wrapper">
   <div id="content">
@@ -40,19 +79,47 @@
       <h4></h4>
     </div>
     <div id="contentarea">
-      <div id="leftbar"
-        <h2></h2>
-
-        <p><img src="images/1.jpg" alt="1" width=" 220" height="160">
-<img src="images/2.jpg" alt="2" width=" 220" height="160">
-<img src="images/3.jpg" alt="3" width=" 220" height="160">
-<img src="images/4.jpg" alt="4" width=" 220" height="160">
+     <div id="leftbar">
+  <h2></h2>
 
 
+<div id="imageMarquee">
+    <img src="images/1.jpg" alt="1">
+    <img src="images/2.jpg" alt="2">
+    <img src="images/3.jpg" alt="3">
+<img src="images/4.jpg" alt="4">
 
-</p> <br />
-        <a href="#">更多 ></a><br />
-        <br />
+ <img src="images/1.jpg" alt="1">
+    <img src="images/2.jpg" alt="2">
+    <img src="images/3.jpg" alt="3">
+<img src="images/4.jpg" alt="4">
+
+ <img src="images/1.jpg" alt="1">
+    <img src="images/2.jpg" alt="2">
+    <img src="images/3.jpg" alt="3">
+<img src="images/4.jpg" alt="4">
+
+ <img src="images/1.jpg" alt="1">
+    <img src="images/2.jpg" alt="2">
+    <img src="images/3.jpg" alt="3">
+<img src="images/4.jpg" alt="4">
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  </div>
 <div id="rightbar">
